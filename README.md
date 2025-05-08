@@ -1,1 +1,34 @@
 # PORTFOLIO
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Animated Overlapping Cards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- style.css dosyasını dahil ediyoruz -->
+  <link rel="stylesheet" href="deney.css" />
+</head>
+  <body>
+      <header class="header">
+          <div class="logo">Logo</div>
+          <nav class="navbar">
+              <a href="#">Anasayfa</a>
+              <a href="#">Hakkımızda</a>
+              <a href="#">İletişim</a>
+          </nav>
+          <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      </header>
+      <main class="main">
+          <section class="home">
+              <div class="home-content">
+                  <h1>Başlık</h1>
+                  <p>Açıklama metni...</p>
+              </div>
+              <div class="home-img">
+                  <img src="resim.jpg" alt="Resim">
+              </div>
+          </section>
+      </main>
+      <script src="js.js"></script>
+  </body>
+  </html>
